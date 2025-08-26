@@ -10,7 +10,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { ThemeProvider } from './components/Theme.jsx';
 import { AnimatePresence } from 'framer-motion';
 import { CartProvider } from './components/CartProvider.jsx';
-import Cart from './components/cart.jsx';
+import Cart from './components/Cart';
 
 function App() {
   return (
